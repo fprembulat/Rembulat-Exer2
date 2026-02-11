@@ -91,7 +91,7 @@ html, body{
     writing-mode: vertical-lr;
     transform: rotate(180deg);
     font-family: "Bricolage Grotesque", sans-serif;
-    font-size: clamp(80px, 12vw, 180px);
+    font-size: 130px;
     font-weight: 300;
     color: #b03545;
     opacity: 0.9;
@@ -100,7 +100,7 @@ html, body{
 
 .w{
     font-family: "MonteCarlo", cursive;
-    font-size: clamp(120px, 20vw, 300px);
+    font-size: 150px;
     line-height: 1;
 }
 
@@ -119,7 +119,7 @@ html, body{
 }
 
 .hi{
-    font-size: clamp(24px, 4vw, 50px);
+    font-size: 40px;
     color: #aca238;
     margin-top: 50px;
     padding-bottom: 90px;
@@ -128,7 +128,7 @@ html, body{
 .ab p{
     text-align: left;
     color: #973d54;
-    font-size: clamp(18px, 3vw, 40px);
+    font-size: 40px;
     padding-left: 30px;
     padding-bottom: 83px;
     max-width: 750px;
