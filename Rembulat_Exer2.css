@@ -178,15 +178,17 @@ html, body{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
-    flex-wrap: nowrap;
-    padding-top: 90px;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-top: 50px;
 }
-.palimg img{
-    height: 260px;
-    width: auto;
+
+.palimg img {
+    max-width: 150px;
+    height: auto; 
     object-fit: contain;
 }
+
 
 
 .mymuseum{
