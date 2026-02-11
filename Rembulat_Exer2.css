@@ -13,6 +13,13 @@
     height: 110%;
 }
 
+.navigation{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
 .hprog {
     font-family: "Pinyon Script", cursive;
     font-weight: 500;
@@ -80,4 +87,95 @@
 
 .museumbut {
     background-color: #aca238;
+}
+
+.originpage {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    align-items: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.whoami {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 180px;
+    font-weight: 300;
+    color: #b03545;
+    display: flex;
+    margin: 0;
+    opacity: 0.9;
+    z-index: 10;
+}
+
+.w {
+    font-family: "MonteCarlo", cursive;
+    font-size: 300px;
+    line-height: 1;
+}
+
+.mypicture {
+    width: 36vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.autobio {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    max-width: 860px;
+    font-family: "Bricolage Grotesque", sans-serif;
+}
+
+.hi {
+    font-size: 50px;
+    color: #aca238;
+    margin-top: 50px;
+    padding-bottom: 90px;
+}
+
+.ab p {
+    text-align: left;
+    color: #973d54;
+    font-size: 40px;
+    padding-left: 30px;
+    padding-bottom: 83px;
+    max-width: 750px;
+    font-weight: 400;
+    z-index: 10;
+
+}
+
+.name {
+    color: #aca238;
+    font-weight: 700;
+}
+
+.flower {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 90%;
+    height: 90%;
+    z-index: 1;
+    opacity: 0.2;
+}
+
+.palettepage{
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(circle at center, #ca8294 0%, #ffedf1 50%, #ffffff 100%);
+}
+
+.palettepage h1{
+    text-align: center;
+    font-size: 100px;
+    padding-top: 80px;
+    font-family: "MonteCarlo", cursive;
+    color: #aca238;
+    font-weight: 600;
 }
