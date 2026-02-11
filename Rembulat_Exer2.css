@@ -91,7 +91,7 @@ html, body{
     writing-mode: vertical-lr;
     transform: rotate(180deg);
     font-family: "Bricolage Grotesque", sans-serif;
-    font-size: 130px;
+    font-size: 140px;
     font-weight: 300;
     color: #b03545;
     opacity: 0.9;
@@ -184,11 +184,10 @@ html, body{
 }
 
 .palimg img {
-    max-width: 200px;
+    width: 200px;
     height: auto; 
     object-fit: contain;
 }
-
 
 
 .mymuseum{
